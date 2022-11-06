@@ -1,18 +1,14 @@
-var sum=0;
-var i;
-for (i=0 ; i<100 ; i++) {
+let sum = 0;
+let x = 1;
+while (x <= 100){
+    sum +=x;
+    if(sum >= 100)
+    {
+        break;
+    }
 
-   
-    sum+=i;
 
-     if (sum<100)  { 
-       
-      
-      
-         
-     }
-     else
-     {break ;}
+
+    document.write(sum , "<br>");
+    x++;
 }
-  
-     document.write(sum) 
